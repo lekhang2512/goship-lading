@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go ship</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="css/components/slideshow.min.css" />
+    <link rel="stylesheet" href="css/components/slidenav.min.css" />
+    <link rel="stylesheet" href="css/components/dotnav.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+    <header id="header">
+        <div class="header-top">
+            <div class="uk-container uk-container-center">
+                <div class="uk-grid">
+                    <div class="uk-width-large-1-2">
+                        <ul class="uk-navbar-nav hd-top-left">
+                            <li class="uk-margin-large-right uk-text-bold"><i class="fa fa-envelope-o" aria-hidden="true"></i>lekhang2512@gmail.com</li>
+                            <li class="uk-text-bold"><i class="fa fa-phone" aria-hidden="true"></i>01662870489</li>
+                        </ul>
+                    </div>
+                    <div class="uk-width-large-1-2">
+                        <ul class="uk-navbar-nav hd-top-left uk-float-right">
+                            <li class="icon-social"><a><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                            <li class="icon-social"><a><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li class="icon-social"><a><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li class="icon-social"><a><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li class="icon-social"><a>Đăng ký</a></li>
+                            <li class="icon-social"><a>Đăng nhập</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-main">
+            <div class="uk-container uk-container-center">
+                <div class="uk-grid">
+                    <div class="uk-width-large-1-5">
+                        <a href="#" title=""><img src="images/logo-green.png" alt=""></a>
+                    </div>
+                    <div class="uk-width-large-4-5 menu-navbar">
+                        <nav class="uk-navbar menu">
+                            <ul class="uk-navbar-nav uk-hidden-small">
+                                <li class="uk-active"><a href="index.html">Trang chủ</a></li>
+                                <li class="uk-parent" data-uk-dropdown="">
+                                    <a href="service.html">Dịch vụ</a>
+                                    <div class="uk-dropdown uk-dropdown-navbar">
+                                        <ul class="uk-nav uk-nav-navbar">
+                                            <li><a href="#">Item</a></li>
+                                            <li class="uk-nav-divider"></li>
+                                            <li><a href="#">Another item</a></li>
+                                            <li class="uk-nav-divider"></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li class="uk-nav-divider"></li>
+                                            <li><a href="#">Another item</a></li>
+                                            <li class="uk-nav-divider"></li>
+                                            <li><a href="#">Separated item</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="">Bảng giá</a></li>
+                                <li><a href="news.html">Tin tức</a></li>
+                                <li><a href="">API kết nối</a></li>
+                                <li><a href="contact-us.html">Liên hệ</a></li>
+                            </ul>
+                            <a href="#offcanvas-1" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas=""></a>
+                        </nav>
+                        <div class="uk-navbar-flip search">
+                            <div id="sb-search" class="sb-search">
+                                <form>
+                                    <input class="sb-search-input" placeholder="Search" type="text" value="" name="search" id="search">
+                                    <button class="sb-search-button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                        <div id="offcanvas-1" class="uk-offcanvas" aria-hidden="true">
+                            <div class="uk-offcanvas-bar" mode="push">
+                                <div class="uk-panel">Lorem ipsum dolor sit amet, <a href="#">consetetur</a> sadipscing elitr.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header><!-- /header -->
+    <!-- slide-show -->
+    <div id="slide-show" class="uk-width-large-1-1">
+        <div class="uk-slidenav-position" data-uk-slideshow="{autoplay:true, animation: 'scale', pauseOnHover: true, duration: 500, autoplayInterval: 10000, kenburns:false}">
+            <ul class="uk-slideshow uk-overlay-active">
+                <!-- <li>
+                    <img src="http://getuikit.com/docs/images/placeholder_800x400_1.jpg" width="1200" height="400">
+                    <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-flex uk-flex-left uk-flex-middle uk-text-center">
+                        <div>
+                          <h3>OVERLAY</h3>
+                          <p>Lorem <a href="#">ipsum dolor</a> sit amet, consetetur sadipscing elitr,<br>sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</p>
+                          <button class="uk-button uk-button-primary">Button</button>
+                        </div>
+                    </div>
+                </li> -->
+                <li>
+                    <img src="http://getuikit.com/docs/images/placeholder_800x400_1.jpg" width="1200" height="400">
+                </li>
+                <li>
+                    <img src="http://getuikit.com/docs/images/placeholder_800x400_3.jpg" width="1200" height="400">
+                </li>
+            </ul>
+            <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
+            <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
+            <ul class="uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center">
+                <li data-uk-slideshow-item="0"><a href=""></a></li>
+                <li data-uk-slideshow-item="1"><a href=""></a></li>
+                <!-- <li data-uk-slideshow-item="2"><a href=""></a></li> -->
+            </ul>
+            <div class="goship-trans uk-width-large-1-1">
+                <div class="uk-container uk-container-center">
+                    <div class="uk-grid goship-trans-flex">
+                        <div class="uk-width-large-1-2">
+                            <div class="slide-left">
+                                <h1 class="uk-text-bold uk-text-uppercase">Nền tảng chuyển phát chuyên nghiệp dành cho bạn</h1>
+                                <p>Kết nối hãng vận chuyển trên một nền tảng duy nhất</p>
+                                <p>So sánh giá và tạo vận đơn nhanh chóng theo ý muốn</p>
+                                <div class="uk-text-center uk-margin-large-top">
+                                    <button class="uk-button uk-button-success uk-margin-right uk-button-large button-slide btn-register" type="button" data-uk-button>Đăng ký ngay</button>
+                                    <button class="uk-button uk-button-primary uk-button-large button-slide btn-login" type="button" data-uk-button>Đăng nhập</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-width-large-1-2">
+                            <div class="slide-right uk-text-center">
+                                <h3 class="uk-text-bold uk-text-uppercase uk-text-primary"><i class="fa fa-truck uk-margin-right" aria-hidden="true"></i>Tra cứu cước vận chuyển</h3>
+                                <form class="uk-form">
+
+                                    <div class="uk-grid">
+                                        <div class="uk-width-medium-1-2 uk-row-first">
+                                            <div class="uk-form-controls uk-margin-small-bottom">
+                                                <select id="form-s-s" class="uk-width-1-1">
+                                                    <option>Gửi từ tỉnh thành</option>
+                                                </select>
+                                            </div>
+                                            <div class="uk-form-controls uk-margin-small-bottom">
+                                                <select id="form-s-s" class="uk-width-1-1">
+                                                    <option>Gửi từ quận huyện</option>
+                                                </select>
+                                            </div>
+                                            <div class="uk-form-controls uk-margin-small-bottom">
+                                                <input type="text" placeholder="Khối lượng (g)" class="uk-width-1-1">
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-medium-1-2">
+                                            <div class="uk-form-controls uk-margin-small-bottom">
+                                                <select id="form-s-s" class="uk-width-1-1">
+                                                    <option>Gửi đến tỉnh thành</option>
+                                                </select>
+                                            </div>
+                                            <div class="uk-form-controls uk-margin-small-bottom">
+                                                <select id="form-s-s" class="uk-width-1-1">
+                                                    <option>Gửi đến quận huyện</option>
+                                                </select>
+                                            </div>
+                                            <div class="uk-form-controls uk-margin-small-bottom">
+                                                <input type="text" placeholder="Số tiền thu hộ" class="uk-width-1-1">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </form>
+                                <button class="uk-button uk-button-primary uk-margin-top btn-shipment" type="button" data-uk-button>Xem phí vận chuyển</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slide-show -->
+    <!-- main -->
+    <article>
+        <!-- news -->
+        <div class="uk-width-large-1-1 news">
+            <div class="uk-container uk-container-center">
+                <div class="uk-grid">
+                    <div class="uk-width-large-1-4">
+                        <div class="news-cate">
+                            <div class="news-title">
+                                <h1 class="uk-text-bold">Danh mục</h1>
+                                <hr align="left">
+                                <ul class="uk-list">
+                                    <li class="active">
+                                        <a href="#" title=""><span class="uk-text-center">Chính sách, quy định của Goship </span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title=""><span class="uk-text-center">Hướng dẫn sử dụng </span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title=""><span class="uk-text-center">Thông báo </span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title=""><span class="uk-text-center">Tin khuyến mại </span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title=""><span class="uk-text-center">Tin tuyển dụng </span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title=""><span class="uk-text-center">Bài viết khác </span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-large-3-4">
+                        <article class="article">
+                            <div id="post-356" class="post">
+                                <div class="single_post">
+                                    <div class="post-date-ribbon">
+                                        <div class="corner"></div>July 18, 2016
+                                    </div>
+                                    <div class="breadcrumb" xmlns:v="http://rdf.data-vocabulary.org/#">
+                                        <span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" href="http://demo.mythemeshop.com/ribbon">Home</a></span>
+                                        <span><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><span typeof="v:Breadcrumb"><a href="http://demo.mythemeshop.com/ribbon/category/featured/" rel="v:url" property="v:title">featured</a></span>
+                                        <span><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><span><span>Class Aptent Taciti Aociosqu Ad Litora Torquent Per</span></span>
+                                    </div>
+                                    <header>
+                                        <h1 class="title single-title">Class Aptent Taciti Aociosqu Ad Litora Torquent Per</h1>
+                                        <div class="post-info">
+                                            <span class="theauthor"><span><i class="fa fa-user"></i></span>By&nbsp;<a href="http://demo.mythemeshop.com/ribbon/author/mythemeshop/" title="Posts by MyThemeShop" rel="author">MyThemeShop</a></span> <span class="featured-cat"><span><i class="fa fa-bookmark"></i></span><a href="http://demo.mythemeshop.com/ribbon/category/featured/" rel="category tag">featured</a>, <a href="http://demo.mythemeshop.com/ribbon/category/wellhead/" rel="category tag">wellhead</a></span> <span class="thecomment"><span><i class="fa fa-comment"></i></span>&nbsp;<a href="http://demo.mythemeshop.com/ribbon/2016/07/18/how-twitter-works-all-you-need-to-know-about-twitter/#respond">0 Comments</a></span>
+                                        </div>
+                                    </header>
+                                    <div id="content" class="post-single-content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam architecto ratione distinctio cupiditate itaque aperiam. Dolores consectetur assumenda, vel ea molestias deleniti perspiciatis ut exercitationem maiores, iste illo suscipit. Recusandae est dicta corrupti, esse, praesentium in saepe ipsa placeat porro asperiores corporis sed eum veritatis dolorum, quae iure alias dolore. Esse, quam! Animi maxime iure asperiores doloribus dolore fuga ipsa repellat, tenetur vitae architecto sint sit rerum, minus beatae quia numquam eum eos laboriosam quod eligendi quisquam omnis. Eligendi, expedita neque corrupti totam. Quisquam harum expedita, sapiente autem dolores rerum, iste, nulla illum soluta quaerat sit tempore aut mollitia alias.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati nobis doloremque consequatur, hic accusantium tempore.</p>
+                                    </div>
+                                    <div class="tags">
+                                        <span class="tagtext">Tags:</span><a href="http://demo.mythemeshop.com/ribbon/tag/social-media-2/" rel="tag">Social media</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- news -->
+    </article>
+    <!-- main -->
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="uk-container uk-container-center">
+                <div class="uk-grid">
+                    <div class="uk-width-large-1-4">
+                        <h4 class="footer-title">Về chúng tôi</h4>
+                        <a href="#" title=""><img src="images/logo-green.png" alt="" width="200"></a>
+                        <p>
+                            ©2016 - Cổng giao nhận vận chuyển giao hàng & thu tiền (CoD) toàn quốc thuộc Công ty cổ phần Thương mại điện tử Goship Việt Nam.
+                        </p>
+                    </div>
+                    <div class="uk-width-large-1-4">
+                        <h4 class="footer-title">TRUY CẬP NHANH</h4>
+                        <ul class="uk-list">
+                            <li><a>Đăng ký sử dụng </a></li>
+                            <li><a>Tra phí vận chuyển giao hàng </a></li>
+                            <li><a>Danh sách đơn hàng cần xử lý </a></li>
+                            <li><a>Cấu hình thanh toán </a></li>
+                            <li><a>Tặng đơn hàng miễn phí</a></li>
+                        </ul>
+                    </div>
+                    <div class="uk-width-large-1-4">
+                        <h4 class="footer-title">HƯỚNG DẪN</h4>
+                        <ul class="uk-list">
+                            <li><a>Khách hàng thân thiết – Nhận ngay ưu đãi</a></li>
+                            <li><a>Hướng dẫn sử dụng Goship.io </a></li>
+                            <li><a>Goship – Ứng dụng vận chuyển trên đi động</a></li>
+                        </ul>
+                    </div>
+                    <div class="uk-width-large-1-4">
+                        <h4 class="footer-title">LIÊN HỆ</h4>
+                        <p><i class="fa fa-envelope-o uk-margin-right" aria-hidden="true"></i>lekhang2512@gmail.com</p>
+                        <p><i class="fa fa-map-marker uk-margin-right" aria-hidden="true"></i>102 Thái Thịnh - Hà Nội</p>
+                        <p><i class="fa fa-phone uk-margin-right" aria-hidden="true"></i>01662870489</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="uk-container uk-container-center">
+                <div class="uk-grid">
+                    <div class="uk-width-large-2-3">
+                        <ul class="footer-navbar">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Portfolio</a></li>
+                            <li><a href="">Team</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="uk-width-large-1-3 uk-float-right footer-design">
+                        <p>All Copyrights reserved @ 2016 - Design by <span>Lee Khang</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="btn-top">
+        <i class="fa fa-arrow-up fa-lg" aria-hidden="true"></i>
+    </div>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/components/slideshow.min.js"></script>
+</body>
+</html>
+<script>
+    jQuery(document).ready(function($){
+        if($(".btn-top").length > 0){
+            $(window).scroll(function () {
+                var e = $(window).scrollTop();
+                if (e > 300) {
+                    $(".btn-top").show()
+                } else {
+                    $(".btn-top").hide()
+                }
+            });
+            $(".btn-top").click(function () {
+                $('body,html').animate({
+                    scrollTop: 0
+                })
+            })
+        }
+    });
+</script>
